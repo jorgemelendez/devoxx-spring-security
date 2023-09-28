@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: dmNeItTiHExnzVzjQeS0FjtwLEXSZjEq
+            client-secret: V-nf35fZVoV-kICI1yXYsiiathfJ6TF1dIdo-FSzdAw1Msm-7B29kJYl0MPbEkq6
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            # trailing slash is important!
+            issuer-uri: https://dev-vd2bpoea.us.auth0.com/
